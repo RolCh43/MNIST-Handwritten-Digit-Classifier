@@ -1,0 +1,23 @@
+Treinamento da Rede Neural (sigmoide, 4 camadas ocultas)
+Época 01: MSE treino=0.090154, MSE teste=0.090019
+Época 02: MSE treino=0.089888, MSE teste=0.089784
+Época 03: MSE treino=0.089352, MSE teste=0.087780
+Época 04: MSE treino=0.077137, MSE teste=0.066845
+Época 05: MSE treino=0.051951, MSE teste=0.038997
+Época 06: MSE treino=0.032290, MSE teste=0.025453
+Época 07: MSE treino=0.023306, MSE teste=0.020582
+Época 08: MSE treino=0.019865, MSE teste=0.018315
+Época 09: MSE treino=0.017688, MSE teste=0.016287
+Época 10: MSE treino=0.016030, MSE teste=0.015298
+Época 11: MSE treino=0.014610, MSE teste=0.013795
+Época 12: MSE treino=0.013388, MSE teste=0.012704
+Época 13: MSE treino=0.012383, MSE teste=0.012180
+Época 14: MSE treino=0.011431, MSE teste=0.011505
+Época 15: MSE treino=0.010632, MSE teste=0.010410
+Época 16: MSE treino=0.009873, MSE teste=0.010781
+Época 17: MSE treino=0.009223, MSE teste=0.009311
+Época 18: MSE treino=0.008604, MSE teste=0.008655
+Época 19: MSE treino=0.008065, MSE teste=0.008045
+Época 20: MSE treino=0.007565, MSE teste=0.008052
+
+Acurácia final: 0.9481
