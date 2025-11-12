@@ -16,13 +16,13 @@ class Trainer:
     def train(self):
         start = time.time()
         with open(self.outfile, "w", encoding="utf-8") as log:
-            log.write("Treinamento da Rede Neural (sigmoide, 4 camadas ocultas)\n")
+            log.write("Neural network training (sigmoid, 4 hidden layers)\n")
             n = self.X_train.shape[0]
 
             for epoch in range(1, self.epochs + 1):
-                indices = np.arange(n)
-                np.random.shuffle(indices)
-                X_train, y_train = self.X_train[indices], self.y_train[indices]
+                index = np.arange(n)
+                np.random.shuffle(index)
+                X_train, y_train = self.X_train[index], self.y_train[index]
                 losses = []
 
                 for i in range(0, n, self.batch_size):
@@ -36,12 +36,12 @@ class Trainer:
 
                 y_pred = self.model.predict(self.X_test)
                 val_loss = self.model.mse(y_pred, self.y_test)
-                line = f"Época {epoch:02d}: MSE treino={np.mean(losses):.6f}, MSE teste={val_loss:.6f}"
+                line = f"Epoch {epoch:02d}: MSE train={np.mean(losses):.6f}, MSE test={val_loss:.6f}"
                 print(line)
                 log.write(line + "\n")
 
             acc = np.mean(np.argmax(self.model.predict(self.X_test), axis=1) ==
                           np.argmax(self.y_test, axis=1))
-            log.write(f"\nAcurácia final: {acc:.4f}\n")
+            log.write(f"\nFinal accuracy: {acc:.4f}\n")
 
-        print(f"Treinamento concluído em {time.time() - start:.1f}s | Acurácia final: {acc:.4f}")
+        print(f"Training done in {time.time() - start:.1f}s | Final accuracy: {acc:.4f}")
