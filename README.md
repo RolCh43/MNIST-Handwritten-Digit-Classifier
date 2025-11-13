@@ -80,7 +80,7 @@ Build and train a neural network
 
 Print training progress and accuracy
 
-Code Overview
+### Code Overview
 MnistDataloader
 Reads binary MNIST files (.ubyte) and converts them into NumPy arrays.
 
@@ -101,7 +101,7 @@ Coordinates the training process, runs epochs, computes loss, and prints accurac
 Utils
 Contains helper functions such as one-hot encoding.
 
- Learning Objectives
+### Learning Objectives
 Understand how MNIST data is structured
 
 Learn how to load and preprocess binary datasets
@@ -116,8 +116,7 @@ Python 3.14
 NumPy
 
 
-Author
-
+### Author
 Roldão Pitra
 
- Software Engineering @ UCSAL
+Software Engineering @ UCSAL
