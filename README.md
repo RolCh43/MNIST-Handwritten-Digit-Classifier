@@ -119,4 +119,4 @@ NumPy
 ### Author
 Roldão Pitra
 
-Software Engineering @ UCSAL
+Software Engineering student at UCSAL
