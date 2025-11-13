@@ -110,7 +110,7 @@ Implement forward/backward propagation manually
 
 Visualize and interpret model performance
 
-###Technologies Used
+### Technologies Used
 Python 3.14
 
 NumPy
