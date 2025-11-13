@@ -101,14 +101,6 @@ Coordinates the training process, runs epochs, computes loss, and prints accurac
 Utils
 Contains helper functions such as one-hot encoding.
 
-Example Output
-When running main.py, you’ll see something like:
-
-
-Epoch 1/10 - Loss: 0.2984 - Accuracy: 91.23%
-Epoch 2/10 - Loss: 0.1821 - Accuracy: 94.78%
-...
-Epoch 10/10 - Loss: 0.0823 - Accuracy: 97.01%
  Learning Objectives
 Understand how MNIST data is structured
 
